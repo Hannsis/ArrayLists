@@ -28,6 +28,18 @@
             sötDjur[2] = Console.ReadLine();
             Console.WriteLine($"tre sjur du gillar är: {sötDjur[2]}, {sötDjur[1]} och {sötDjur[0]}");
         }
+
+        static void Städer() 
+        {
+            string[] svenskaStäder = new string[];
+            Console.WriteLine("Skriv in en stad:");
+            svenskaStäder[0] = "Göteborg";
+            svenskaStäder[1] = "Malmö";
+            svenskaStäder[2] = "Stockholm";
+            svenskaStäder[3] = Console.ReadLine();
+            Console.WriteLine($"Här är yttligare 3 svenska städer: {svenskaStäder[0]}, {svenskaStäder[1]} och {svenskaStäder[2");
+            
+        }
     }
 
 }
